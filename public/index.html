@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>temp</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+  <canvas id='app'></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/assets/processing.js"></script>
+  <script>
+    var socket = io.connect(window.location.href);
+  </script>
+  <script src="/app.js"></script>
+  </body>
+</html>
